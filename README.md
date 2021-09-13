@@ -17,6 +17,7 @@ podman run \
   -e SMTP_PASSWORD=your_email_password \
   -e SMTP_SERVER=smtp.example.com \
   -e SMTP_PORT=587 \
+  --name=shaarli-reminder \
   sebastienw/shaarli-reminder:v0.0.1
 ```
 
