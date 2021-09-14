@@ -1,10 +1,10 @@
 # Shaarli bookmark reminder
 
+If you use Shaarli and want to be reminded to check some links in the future (for example a product that would launch, some progress on a Github repository), you just need to tag a link with something like `remindme202209`.
+
+`202209` means you want to check that website again in September 2022.
+
 ## Running the container from Docker Hub
-
-If you use Shaarli and want to be reminded to check some links in the future (for example a product that would launch, some progress on a Github repository), you just need to tag a link with something like "remindme202209".
-
-202209 means you want to check that website again in September 2022.
 
 This container can be run from a cron job on the first of each month with:
 
