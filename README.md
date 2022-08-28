@@ -4,7 +4,7 @@ If you use Shaarli and want to be reminded to check some links in the future (fo
 
 `202209` means you'd want to check that website again in September 2022.
 
-Now you just need to run this container (see below) on the 1st of each month. On the first of September, the container will find links tagged with `remindme202209` and will send an email with the list of links.
+Now you just need to run this container (see below) on the 1st of each month (or really once any day of the month). When run, the container will find links tagged with `remindme202209` and it will send a summary.
 
 You have two ways to run this container.
 
