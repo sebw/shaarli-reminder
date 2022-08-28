@@ -20,7 +20,7 @@ podman run \
   -e SMTP_SERVER=smtp.example.com \
   -e SMTP_PORT=587 \
   --name=shaarli-reminder \
-  docker.io/sebastienw/shaarli-reminder:v0.0.1
+  ghcr.io/sebw/shaarli-reminder:v0.0.1
 ```
 
 You will receive a summary by email.
