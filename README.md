@@ -2,9 +2,13 @@
 
 If you use Shaarli and want to be reminded to check some links in the future (for example a product that would launch, some progress on a Github repository), you just need to tag a link with something like `remindme202209`.
 
-`202209` means you want to check that website again in September 2022.
+`202209` means you'd want to check that website again in September 2022.
 
-## Running the container from Docker Hub
+Now you just need to run this container (see below) on the 1st of each month. On the first of September, the container will find links tagged with `remindme202209` and will send an email with the list of links.
+
+You have two ways to run this container.
+
+## Running the pre-built container 
 
 This container can be run from a cron job on the first of each month with:
 
@@ -23,7 +27,7 @@ podman run \
   ghcr.io/sebw/shaarli-reminder:v0.0.1
 ```
 
-You will receive a summary by email.
+Anytime you run the container, you will receive the summary by email.
 
 ## Building and running the container locally
 
